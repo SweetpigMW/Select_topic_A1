@@ -2,7 +2,7 @@
    targetNamespace="http://0.0.0.0:3000/wsdl?wsdl"
    xmlns="http://schemas.xmlsoap.org/wsdl/"
    xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
-   xmlns:tns="http://127.0.0.1:3000/wsdl/MovieService.wsdl"
+   xmlns:tns="http://0.0.0.0:3000/wsdl/MovieService.wsdl"
    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
   <message name="updateMovieRequest">
