@@ -1,8 +1,8 @@
 <definitions name="MovieService"
-   targetNamespace="http://127.0.0.1:3000/wsdl?wsdl"
+   targetNamespace="http://127.0.0.1:8000/wsdl?wsdl"
    xmlns="http://schemas.xmlsoap.org/wsdl/"
    xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
-   xmlns:tns="http://127.0.0.1:3000/wsdl/MovieService.wsdl"
+   xmlns:tns="http://127.0.0.1:8000/wsdl/MovieService.wsdl"
    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
   <message name="updateMovieRequest">
@@ -90,7 +90,7 @@
         use="encoded"/>
     </output>
 
-    
+
    </operation>
      <operation name="queryMoviename">
        <soap:operation soapAction="queryMoviename"/>
@@ -131,7 +131,7 @@
     <documentation>WSDL File for MovieService</documentation>
     <port binding="tns:Movie_Binding" name="Movie_Port">
        <soap:address
-        location="http://127.0.0.1:3000/wsdl"/>
+        location="http://127.0.0.1:8000/wsdl"/>
     </port>
    </service>
 </definitions>
