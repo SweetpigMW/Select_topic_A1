@@ -1,0 +1,17 @@
+{
+  "name": "kigkokman-soap-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dom": "0.0.3",
+    "soap": "^0.17.0",
+    "xmldom": "^0.1.22",
+    "xpath": "0.0.23"
+  }
+}

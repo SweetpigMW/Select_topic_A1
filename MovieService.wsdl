@@ -1,0 +1,137 @@
+<definitions name="MovieService"
+   targetNamespace="http://127.0.0.1:3000/wsdl?wsdl"
+   xmlns="http://schemas.xmlsoap.org/wsdl/"
+   xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+   xmlns:tns="http://127.0.0.1:3000/wsdl/MovieService.wsdl"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <message name="updateMovieRequest">
+    <part name="old_movie_name" type="xsd:string"/>
+    <part name="new_movie_name" type="xsd:string"/>
+  </message>
+  <message name="updateMovieResponse">
+    <part name="xml" type="xsd:string"/>
+  </message>
+
+   <message name="deleteMovieRequest">
+    <part name="movie_name" type="xsd:string"/>
+   </message>
+   <message name="deleteMovieResponse">
+    <part name="xml" type="xsd:string"/>
+   </message>
+
+  <message name="queryMovienameRequest">
+    <part name="movie_name" type="xsd:string"/>
+  </message>
+  <message name="queryMovieResponse">
+    <part name="xml" type="xsd:string"/>
+  </message>
+
+  <message name="addMovieRequest">
+    <part name="movie_name" type="xsd:string"/>
+    <part name="director" type="xsd:string"/>
+    <part name="year" type="xsd:string"/>
+    <part name="genre" type="xsd:string"/>
+    <part name="star" type="xsd:string"/>
+  </message>
+  <message name="addMovieResponse">
+    <part name="xml" type="xsd:string"/>
+  </message>
+
+   <portType name="Movie_PortType">
+     <operation name="updateMovie">
+       <input message="tns:updateMovieRequest"/>
+       <output message="tns:updateMovieResponse"/>
+     </operation>
+     <operation name="deleteMovie">
+       <input message="tns:deleteMovieRequest"/>
+       <output message="tns:deleteMovieResponse"/>
+    </operation>
+     <operation name="queryMoviename">
+       <input message="tns:deleteMovieRequest"/>
+       <output message="tns:deleteMovieResponse"/>
+     </operation>
+     <operation name="addMovie">
+       <input message="tns:deleteMovieRequest"/>
+       <output message="tns:deleteMovieResponse"/>
+     </operation>
+   </portType>
+
+   <binding name="Movie_Binding" type="tns:Movie_PortType">
+   <soap:binding style="rpc"
+    transport="http://schemas.xmlsoap.org/soap/http"/>
+     <operation name="updateMovie">
+       <soap:operation soapAction="updateMovie"/>
+       <input>
+         <soap:body
+          encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+          namespace="urn:examples:movieservice"
+          use="encoded"/>
+       </input>
+       <output>
+         <soap:body
+          encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+          namespace="urn:examples:movieservice"
+          use="encoded"/>
+       </output>
+     </operation>
+   <operation name="deleteMovie">
+    <soap:operation soapAction="deleteMovie"/>
+    <input>
+       <soap:body
+        encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+        namespace="urn:examples:movieservice"
+        use="encoded"/>
+    </input>
+    <output>
+       <soap:body
+        encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+        namespace="urn:examples:movieservice"
+        use="encoded"/>
+    </output>
+
+    
+   </operation>
+     <operation name="queryMoviename">
+       <soap:operation soapAction="queryMoviename"/>
+       <input>
+         <soap:body
+          encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+          namespace="urn:examples:movieservice"
+          use="encoded"/>
+       </input>
+       <output>
+         <soap:body
+          encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+          namespace="urn:examples:movieservice"
+          use="encoded"/>
+       </output>
+     </operation>
+
+
+
+     <operation name="addMovie">
+       <soap:operation soapAction="addMovie"/>
+       <input>
+         <soap:body
+          encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+          namespace="urn:examples:movieservice"
+          use="encoded"/>
+       </input>
+       <output>
+         <soap:body
+          encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+          namespace="urn:examples:movieservice"
+          use="encoded"/>
+       </output>
+     </operation>
+   </binding>
+
+   <service name="Movie_Service">
+    <documentation>WSDL File for MovieService</documentation>
+    <port binding="tns:Movie_Binding" name="Movie_Port">
+       <soap:address
+        location="http://127.0.0.1:3000/wsdl"/>
+    </port>
+   </service>
+</definitions>

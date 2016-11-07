@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movielist>
+	<movie>
+	  <name>The Dark Knight</name>
+	  <director>Christopher Nolan</director>
+	  <year>2008</year>
+	  <genres>
+	    <genre>Action</genre>
+	    <genre>Thriller</genre>
+	    <genre>Crime</genre>
+	  </genres>
+	  <stars>
+	    <name>Christian Bale</name>
+	    <name>Heath Ledger</name>
+	    <name>Aaron Eckhart </name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Batman Begins</name>
+	  <director>Christopher Nolan</director>
+	  <year>2005</year>
+	  <genres>
+	    <genre>Action</genre>
+	    <genre>Thriller</genre>
+	    <genre>Crime</genre>
+	  </genres>
+	  <stars>
+	    <name>Christian Bale</name>
+	    <name>Michael Caine</name>
+	    <name>Ken Watanabe</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>The Dark Knight Rises</name>
+	  <director>Christopher Nolan</director>
+	  <year>2012</year>
+	  <genres>
+	    <genre>Action</genre>
+	    <genre>Thriller</genre>
+	    <genre>Crime</genre>
+	  </genres>
+	  <stars>
+	    <name>Christian Bale</name>
+	    <name>Anne Hathaway</name>
+	    <name>Tom Hardy</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Inception</name>
+	  <director>Christopher Nolan</director>
+	  <year>2010</year>
+	  <genres>
+	    <genre>Action</genre>
+	    <genre>Adventure</genre>
+	    <genre>Sci-Fi</genre>
+	  </genres>
+	  <stars>
+	    <name>Leonardo DiCaprio</name>
+	    <name>Joseph Gordon-Levitt</name>
+	    <name>Ellen Page</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Gladiator</name>
+	  <director>Ridley Scott</director>
+	  <year>2000</year>
+	  <genres>
+	    <genre>Action</genre>
+	    <genre>Drama</genre>
+	    <genre>Romance</genre>
+	  </genres>
+	  <stars>
+	    <name>Russell Crowe</name>
+	    <name>Joaquin Phoenix</name>
+	    <name>Connie Nielsen</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Mad Max: Fury Road</name>
+	  <director>George Miller</director>
+	  <year>2015</year>
+	  <genres>
+	    <genre>Action</genre>
+	    <genre>Adventure</genre>
+	    <genre>Sci-Fi</genre>
+	  </genres>
+	  <stars>
+	    <name>Tom Hardy</name>
+	    <name>Charlize Theron</name>
+	    <name>Nicholas Hoult</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>The Bourne Identity</name>
+	  <director>Doug Liman</director>
+	  <year>2002</year>
+	  <genres>
+	    <genre>Action</genre>
+	    <genre>Mystery</genre>
+	    <genre>Thriller</genre>
+	  </genres>
+	  <stars>
+	    <name>Matt Damon</name>
+	    <name>Franka Potente</name>
+	    <name>Chris Cooper</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>The Bourne Supremacy</name>
+	  <director>Paul Greengrass</director>
+	  <year>2004</year>
+	  <genres>
+	    <genre>Action</genre>
+	    <genre>Mystery</genre>
+	    <genre>Thriller</genre>
+	  </genres>
+	  <stars>
+	    <name>Matt Damon</name>
+	    <name>Franka Potente</name>
+	    <name>Joan Allen</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>The Bourne Ultimatum</name>
+	  <director>Paul Greengrass</director>
+	  <year>2007</year>
+	  <genres>
+	    <genre>Action</genre>
+	    <genre>Mystery</genre>
+	    <genre>Thriller</genre>
+	  </genres>
+	  <stars>
+	    <name>Matt Damon</name>
+	    <name>Edgar Ramírez</name>
+	    <name>Joan Allen</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Saving Private Ryan</name>
+	  <director>Steven Spielberg</director>
+	  <year>1998</year>
+	  <genres>
+	    <genre>Action</genre>
+	    <genre>Drama</genre>
+	    <genre>War</genre>
+	  </genres>
+	  <stars>
+	    <name>Tom Hanks</name>
+	    <name>Matt Damon</name>
+	    <name>Tom Sizemore</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>47 Ronin</name>
+	  <director>Carl Rinsch</director>
+	  <year>2013</year>
+	  <genres>
+	    <genre>Action</genre>
+	    <genre>Drama</genre>
+	    <genre>Fantasy</genre>
+	  </genres>
+	  <stars>
+	    <name>Keanu Reeves</name>
+	    <name>Rinko Kikuchi</name>
+	    <name>Hiroyuki Sanada</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Maleficent</name>
+	  <director>Robert Stromberg</director>
+	  <year>2014</year>
+	  <genres>
+	    <genre>Action</genre>
+	    <genre>Adventure</genre>
+	    <genre>Fantasy</genre>
+	  </genres>
+	  <stars>
+	    <name>Angelina Jolie</name>
+	    <name>Elle Fanning</name>
+	    <name>Sharlto Copley</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Snow White and the Huntsman</name>
+	  <director>Rupert Sanders</director>
+	  <year>2012</year>
+	  <genres>
+	    <genre>Action</genre>
+	    <genre>Adventure</genre>
+	    <genre>Fantasy</genre>
+	  </genres>
+	  <stars>
+	    <name>Kristen Stewart</name>
+	    <name>Chris Hemsworth</name>
+	    <name>Charlize Theron</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>pixels</name>
+	  <director>Chris Columbus</director>
+	  <year>2015</year>
+	  <genres>
+	    <genre>Action</genre>
+	    <genre>Comedy</genre>
+	    <genre>Sci-Fi</genre>
+	  </genres>
+	  <stars>
+	    <name>Michelle Monaghan</name>
+	    <name>Peter Dinklage</name>
+	    <name>Adam Sandler</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Lucy</name>
+	  <director>Luc Besson</director>
+	  <year>2014</year>
+	  <genres>
+	    <genre>Action</genre>
+	    <genre>Sci-Fi</genre>
+	  </genres>
+	  <stars>
+	    <name>Scarlett Johansson</name>
+	    <name>Morgan Freeman</name>
+	    <name>Amr Waked</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Oz the Great and Powerful</name>
+	  <director>Sam Raimi</director>
+	  <year>2013</year>
+	  <genres>
+	    <genre>Action</genre>
+	    <genre>Adventure</genre>
+	    <genre>Fantasy</genre>
+	  </genres>
+	  <stars>
+	    <name>James Franco</name>
+	    <name>Mila Kunis</name>
+	    <name>Rachel Weisz</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Avatar</name>
+	  <director>James Cameron</director>
+	  <year>2010</year>
+	  <genres>
+	    <genre>Action</genre>
+	    <genre>Adventure</genre>
+	    <genre>Sci-Fi</genre>
+	  </genres>
+	  <stars>
+	    <name>Sam Wothington</name>
+	    <name>Zoe Saldana</name>
+	    <name>Sigourney Weaver</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Mr. &amp; Mrs. Smith</name>
+	  <director>Doug Limen</director>
+	  <year>2005</year>
+	  <genres>
+	    <genre>Action</genre>
+	    <genre>Adventure</genre>
+	    <genre>Romance</genre>
+	  </genres>
+	  <stars>
+	    <name>Brad Pit</name>
+	    <name>Angelina Jolie</name>
+	    <name>Vince Vaughn</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Enders Game</name>
+	  <director>Gavin Hood</director>
+	  <year>2013</year>
+	  <genres>
+	    <genre>Action</genre>
+	    <genre>Adventure</genre>
+	    <genre>Sci-Fi</genre>
+	  </genres>
+	  <stars>
+	    <name>Asa Butterfiels</name>
+	    <name>Abigail Breslin</name>
+	    <name>Harrison Ford</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Largo Winch</name>
+	  <director>Jerome Salle</director>
+	  <year>2009</year>
+	  <genres>
+	    <genre>Adventure</genre>
+	    <genre>Thriller</genre>
+	  </genres>
+	  <stars>
+	    <name>Tomer Sisley</name>
+	    <name>Kristin Scott Thomas</name>
+	    <name>Miki Manojlovic</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>The Lord of the Rings : The Fellowship of the Ring</name>
+	  <director>Peter Jackson</director>
+	  <year>2001</year>
+	  <genres>
+	    <genre>High Fantasy</genre>
+	    <genre>Adventure</genre>
+	  </genres>
+	  <stars>
+	    <name>Elijah Wood</name>
+	    <name>Viggo Mortensen</name>
+	    <name>Ian McKellen</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Transformers</name>
+	  <director>Michael Bay</director>
+	  <year>2007</year>
+	  <genres>
+	    <genre>Science Fiction</genre>
+	    <genre>Action</genre>
+	  </genres>
+	  <stars>
+	    <name>Shia LaBeouf</name>
+	    <name>Megan Fox</name>
+	    <name>Josh Duhamel</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Avatar</name>
+	  <director>James Cameron</director>
+	  <year>2009</year>
+	  <genres>
+	    <genre>Epic Science Fiction</genre>
+	  </genres>
+	  <stars>
+	    <name>Sam Worthington</name>
+	    <name>Stephen Lang</name>
+	    <name>Sigourney Weaver</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Edge of Tomorrow</name>
+	  <director>Doug Liman</director>
+	  <year>2014</year>
+	  <genres>
+	    <genre>Science Fiction</genre>
+	    <genre>Action</genre>
+	  </genres>
+	  <stars>
+	    <name>Tom Cruise</name>
+	    <name>Emily Blunt</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>In Time</name>
+	  <director>Andrew Niccol</director>
+	  <year>2011</year>
+	  <genres>
+	    <genre>Dystopian</genre>
+	    <genre>Science Fiction</genre>
+	    <genre>Action Thriller</genre>
+	  </genres>
+	  <stars>
+	    <name>Justin Timberlake</name>
+	    <name>Amanda Seyfried</name>
+	    <name>Cillian Murphy</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>John Wick</name>
+	  <director>Chad Stahelski, David Leitch</director>
+	  <year>2014</year>
+	  <genres>
+	    <genre>Neo-Noir</genre>
+	    <genre>Action</genre>
+	    <genre>thriller</genre>
+	  </genres>
+	  <stars>
+	    <name>Keanu Reeves</name>
+	    <name>Michael Nyqvist</name>
+	    <name>Alfie Allen</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>James Bond 007 : Casino Royale</name>
+	  <director>Martin Campbell</director>
+	  <year>2006</year>
+	  <genres>
+	    <genre>Action</genre>
+	    <genre>thriller</genre>
+	  </genres>
+	  <stars>
+	    <name>Daniel Craig</name>
+	    <name>Eva Green</name>
+	    <name>Mads Mikkelsen</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Pirates of the Caribbean:At World's End</name>
+	  <director>Gore Verbinski</director>
+	  <year>2007</year>
+	  <genres>
+	    <genre>Epic Fantasy</genre>
+	  </genres>
+	  <stars>
+	    <name>Johnny Depp</name>
+	    <name>Orlando Bloom</name>
+	    <name>Keira Knightley</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Guardians of the Galaxy</name>
+	  <director>James Gunn</director>
+	  <year>2014</year>
+	  <genres>
+	    <genre>Superhero</genre>
+	  </genres>
+	  <stars>
+	    <name>Chris Pratt</name>
+	    <name>Zoe Saldana</name>
+	    <name>Dave Bautista</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Fast and Furious 7</name>
+	  <director>James Wan</director>
+	  <year>2015</year>
+	  <genres>
+	    <genre>Action</genre>
+	  </genres>
+	  <stars>
+	    <name>Vin Diesel</name>
+	    <name>Paul Walker</name>
+	    <name>Jason Statham</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Insurgent</name>
+	  <director>Robert Schwentke</director>
+	  <year>2015</year>
+	  <genres>
+	    <genre>Action</genre>
+	    <genre>Adventure</genre>
+	    <genre>Romance</genre>
+	  </genres>
+	  <stars>
+	    <name>Shailene Woodley</name>
+	    <name>Theo James</name>
+	    <name>Ansel Elgort</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Divergent</name>
+	  <director>Neil Burger</director>
+	  <year>2014</year>
+	  <genres>
+	    <genre>Action</genre>
+	    <genre>Adventure</genre>
+	    <genre>Romance</genre>
+	  </genres>
+	  <stars>
+	    <name>Shailene Woodley</name>
+	    <name>Theo James</name>
+	    <name>Ansel Elgort</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Lights out</name>
+	  <director>David F. Sandberg</director>
+	  <year>2016</year>
+	  <genres>
+	    <genre>Horror</genre>
+	    <genre>Thriller</genre>
+	    <genre>Mystery</genre>
+	  </genres>
+	  <stars>
+	    <name>Teresa Palmer</name>
+	    <name>Gabriel Bateman</name>
+	    <name>Maria Bello</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>The Mortal Instruments: City of Bones</name>
+	  <director>Harald Zwart</director>
+	  <year>2013</year>
+	  <genres>
+	    <genre>Fantasy</genre>
+	    <genre>Action</genre>
+	    <genre>Thriller</genre>
+	  </genres>
+	  <stars>
+	    <name>Lily Collins</name>
+	    <name>Robert Sheehan</name>
+	    <name>Jamie Campbell Bower</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Pitch perfect 2</name>
+	  <director>Elizabeth Banks</director>
+	  <year>2015</year>
+	  <genres>
+	    <genre>Comedy</genre>
+	    <genre>Musical</genre>
+	    <genre>Romance</genre>
+	  </genres>
+	  <stars>
+	    <name>Anna Kendrick</name>
+	    <name>Rebel Wilson</name>
+	    <name>Hailee Steinfeld</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Eragon</name>
+	  <director>Stefen Fangmeier</director>
+	  <year>2006</year>
+	  <genres>
+	    <genre>Fantasy</genre>
+	    <genre>Adventure</genre>
+	    <genre>Action</genre>
+	  </genres>
+	  <stars>
+	    <name>Ed Speleers</name>
+	    <name>Jeremy Irons</name>
+	    <name>Sienna Guillory</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Midnight Special</name>
+	  <director>Jeff Nichols</director>
+	  <year>2016</year>
+	  <genres>
+	    <genre>Adventure</genre>
+	    <genre>Sci-Fi</genre>
+	    <genre>Mystery</genre>
+	  </genres>
+	  <stars>
+	    <name>Michael Shannon</name>
+	    <name>Joel Edgerton</name>
+	    <name>Kirsten Dunst</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Maze Runner : The Scorch Trials</name>
+	  <director>Wes Ball</director>
+	  <year>2015</year>
+	  <genres>
+	    <genre>Action</genre>
+	    <genre>Adventure</genre>
+	    <genre>Sci-Fi</genre>
+	  </genres>
+	  <stars>
+	    <name>Kaya Scodelario</name>
+	    <name>Thomas Brodie-Sangster</name>
+	    <name>Ki Hong Lee</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>The Hunger Games 1</name>
+	  <director>Gary Ross</director>
+	  <year>2012</year>
+	  <genres>
+	    <genre>Adventure</genre>
+	    <genre>Fantasy</genre>
+	    <genre>Action</genre>
+	  </genres>
+	  <stars>
+	    <name>Jennifer Lawrence</name>
+	    <name>Stanley Tucci</name>
+	    <name>Wes Bentley</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Percy Jackson : Sea of Monsters</name>
+	  <director>Thor Freudenthal</director>
+	  <year>2013</year>
+	  <genres>
+	    <genre>Action</genre>
+	    <genre>Adventure</genre>
+	    <genre>Fantasy</genre>
+	  </genres>
+	  <stars>
+	    <name>Logan Lerman</name>
+	    <name>Alexandra Daddario</name>
+	    <name>Jake Abel</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Transcendence</name>
+	  <director>Wally Pfister</director>
+	  <year>2014</year>
+	  <genres>
+	    <genre>Drama</genre>
+	    <genre>Mystery</genre>
+	    <genre>Romance</genre>
+	  </genres>
+	  <stars>
+	    <name>Johnny Depp</name>
+	    <name>Rebecca Hall</name>
+	    <name>Morgan Freeman</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>The Fault in Our Stars</name>
+	  <director>Josh Boone</director>
+	  <year>2014</year>
+	  <genres>
+	    <genre>Drama</genre>
+	    <genre>Romance</genre>
+	  </genres>
+	  <stars>
+	    <name>Shailene Woodley</name>
+	    <name>Ansel Elgort</name>
+	    <name>Nat Wolff</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Escape Plan</name>
+	  <director>Mikael Håfström</director>
+	  <year>2013</year>
+	  <genres>
+	    <genre>Action</genre>
+	    <genre>Crime</genre>
+	    <genre>Mystery</genre>
+	  </genres>
+	  <stars>
+	    <name>Sylvester Stallone</name>
+	    <name>Arnold Schwarzenegger</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Interstellar</name>
+	  <director>Christopher Nolan</director>
+	  <year>2014</year>
+	  <genres>
+	    <genre>Adventure</genre>
+	    <genre>Drama</genre>
+	    <genre>Sci-Fi</genre>
+	  </genres>
+	  <stars>
+	    <name>Matthew McConaughey</name>
+	    <name>Anne Hathaway</name>
+	    <name>Jessica Chastain</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>The Martian</name>
+	  <director>Ridley Scott</director>
+	  <year>2015</year>
+	  <genres>
+	    <genre>Adventure</genre>
+	    <genre>Drama</genre>
+	    <genre>Sci-Fi</genre>
+	  </genres>
+	  <stars>
+	    <name>Matt Damon</name>
+	    <name>Jessica Chastain</name>
+	    <name>Kristen Wiig</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>R.I.P.D.</name>
+	  <director>Robert Schwentke</director>
+	  <year>2013</year>
+	  <genres>
+	    <genre>Action</genre>
+	    <genre>Comedy</genre>
+	    <genre>Fantasy</genre>
+	  </genres>
+	  <stars>
+	    <name>Ryan Reynolds</name>
+	    <name>Jeff Bridges</name>
+	    <name>Mary-Louise Parker</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Exam</name>
+	  <director>Stuart Hazeldine</director>
+	  <year>2009</year>
+	  <genres>
+	    <genre>Mystery</genre>
+	    <genre>Thriller</genre>
+	  </genres>
+	  <stars>
+	    <name>Adar Beck</name>
+	    <name>Gemma Chan</name>
+	    <name>Nathalie Cox</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Summer Wars</name>
+	  <director>Mamoru Hosoda</director>
+	  <year>2009</year>
+	  <genres>
+	    <genre>Animation</genre>
+	    <genre>Action</genre>
+	    <genre>Comedy</genre>
+	  </genres>
+	  <stars>
+	    <name>Ryûnosuke Kamiki</name>
+	    <name>Nanami Sakuraba</name>
+	    <name>Mitsuki Tanimura</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>The Boy and the Beast</name>
+	  <director>Mamoru Hosoda</director>
+	  <year>2015</year>
+	  <genres>
+	    <genre>Animation</genre>
+	    <genre>Action</genre>
+	    <genre>Adventure</genre>
+	  </genres>
+	  <stars>
+	    <name>Bryn Apprill</name>
+	    <name>Kumiko Asô</name>
+	    <name>Morgan Berry</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Spirited Away</name>
+	  <director>Hayao Miyazaki</director>
+	  <year>2001</year>
+	  <genres>
+	    <genre>Animation</genre>
+	    <genre>Adventure</genre>
+	    <genre>Family</genre>
+	  </genres>
+	  <stars>
+	    <name>Rumi Hiiragi</name>
+	    <name>Miyu Irino</name>
+	    <name>Mari Natsuki</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>The Spiderwick Chronicles</name>
+	  <director>Mark Waters</director>
+	  <year>2008</year>
+	  <genres>
+	    <genre>Adventure</genre>
+	  </genres>
+	  <stars>
+	    <name>Freddie Highmore</name>
+	    <name>Sarah Bolger</name>
+	    <name>Mary-Louise Parker</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Charlie and the Chocolate Factory</name>
+	  <director>Tim Burton</director>
+	  <year>2005</year>
+	  <genres>
+	    <genre>Drama</genre>
+	    <genre>Comedy</genre>
+	  </genres>
+	  <stars>
+	    <name>Johnny Depp</name>
+	    <name>Freddie Highmore</name>
+	    <name>David Kelly</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Maleficent</name>
+	  <director>Robert Stromberg</director>
+	  <year>2014</year>
+	  <genres>
+	    <genre>Adventure</genre>
+	    <genre>Drama</genre>
+	  </genres>
+	  <stars>
+	    <name>Angelina Jolie</name>
+	    <name>Elle Fanning</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>The Golden Compass</name>
+	  <director>Chris Weitz</director>
+	  <year>2007</year>
+	  <genres>
+	    <genre>Adventure</genre>
+	    <genre>Drama</genre>
+	    <genre>Sci-Fi</genre>
+	  </genres>
+	  <stars>
+	    <name>Nicole Kidman</name>
+	    <name>Sam Elliott</name>
+	    <name>Eva Green</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Lone Survivor</name>
+	  <director>Peter Berg</director>
+	  <year>2013</year>
+	  <genres>
+	    <genre>Action</genre>
+	  </genres>
+	  <stars>
+	    <name>Mark Wahlberg</name>
+	    <name>Taylor Kitsch</name>
+	    <name>Emile Hirsch</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Source Code</name>
+	  <director>Duncan Jones</director>
+	  <year>2011</year>
+	  <genres>
+	    <genre>Sci-Fi</genre>
+	    <genre>Action</genre>
+	  </genres>
+	  <stars>
+	    <name>Jake Gyllenhaal</name>
+	    <name>Michelle Monaghan</name>
+	    <name>Vera Farmiga</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Battle: Los Angeles</name>
+	  <director>Jonathan Liebesman</director>
+	  <year>20011</year>
+	  <genres>
+	    <genre>Sci-Fi</genre>
+	    <genre>Action</genre>
+	  </genres>
+	  <stars>
+	    <name>Aaron Eckhart</name>
+	    <name>Michelle Rodriguez</name>
+	    <name>Bridget Moynahan</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Scream 4</name>
+	  <director>Wes Craven</director>
+	  <year>20011</year>
+	  <genres>
+	    <genre>Thriller</genre>
+	  </genres>
+	  <stars>
+	    <name>David Arquette</name>
+	    <name>Neve Campbell</name>
+	    <name>Courteney Cox</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Tower Heist</name>
+	  <director>Brett Ratner</director>
+	  <year>2011</year>
+	  <genres>
+	    <genre>Comedy</genre>
+	  </genres>
+	  <stars>
+	    <name>Ben Stiller</name>
+	    <name>Eddie Murphy</name>
+	    <name>Matthew Broderick</name>
+	  </stars>
+	</movie>
+	<movie>
+	  <name>Immortals</name>
+	  <director>Tarsem</director>
+	  <year>2011</year>
+	  <genres>
+	    <genre>Action</genre>
+	    <genre>Adventure</genre>
+	  </genres>
+	  <stars>
+	    <name>Henry Cavill</name>
+	    <name>Freida Pinto</name>
+	    <name>Mickey Rourke</name>
+	  </stars>
+	</movie>
+</movielist>
