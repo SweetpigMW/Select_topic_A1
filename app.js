@@ -60,7 +60,7 @@ var movieService = {
                     }
                 }
                 console.log(nodes.toString());
-                return { xml: 'nodes.toString' };
+                return { xml: nodes.toString() };
             },
 
 
