@@ -1,7 +1,7 @@
 var http = require('http');
 var soap = require('soap');
-var xpath = require('xpath');
-var dom = require('xmldom').DOMParser;
+var xpath = require('xpath')
+  , dom = require('xmldom').DOMParser;
 
 var movieService = {
     Movie_Service: {
@@ -114,7 +114,7 @@ var xml = require('fs').readFileSync('MovieService.wsdl', 'utf8'),
           response.end("404: Not Found: " + request.url)
       });
 
-server.listen(process.env.PORT || 8000, process.env.IP || "0.0.0.0", function () {
+server.listen(process.env.PORT || 3000, process.env.IP || "0.0.0.0", function () {
   var addr = server.address();
   console.log("server listening at", addr.address + ":" + addr.port);
   });
