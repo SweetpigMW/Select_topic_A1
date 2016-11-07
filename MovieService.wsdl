@@ -1,8 +1,8 @@
 <definitions name="MovieService"
-   targetNamespace="http://0.0.0.0:8000/wsdl?wsdl"
+   targetNamespace="https://kigkokman-soap-server.herokuapp.com/wsdl?wsdl"
    xmlns="http://schemas.xmlsoap.org/wsdl/"
    xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
-   xmlns:tns="http://0.0.0.0:8000/wsdl/MovieService.wsdl"
+   xmlns:tns="https://kigkokman-soap-server.herokuapp.com/wsdl?wsdl"
    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
   <message name="updateMovieRequest">
