@@ -20,12 +20,31 @@
     <part name="xml" type="xsd:string"/>
    </message>
 
+
+
+
+
+
+
   <message name="queryMovienameRequest">
     <part name="movie_name" type="xsd:string"/>
   </message>
-  <message name="queryMovieResponse">
+  <message name="queryMovienameResponse">
     <part name="xml" type="xsd:string"/>
   </message>
+  <message name="queryMoviedirectorRequest">
+    <part name="movie_name" type="xsd:string"/>
+  </message>
+  <message name="queryMoviedirectorResponse">
+    <part name="xml" type="xsd:string"/>
+  </message>
+
+
+
+
+
+
+
 
   <message name="addMovieRequest">
     <part name="movie_name" type="xsd:string"/>
@@ -47,10 +66,25 @@
        <input message="tns:deleteMovieRequest"/>
        <output message="tns:deleteMovieResponse"/>
     </operation>
+
+
+
+
+
      <operation name="queryMoviename">
        <input message="tns:deleteMovieRequest"/>
        <output message="tns:deleteMovieResponse"/>
      </operation>
+     <operation name="queryMoviedirector">
+       <input message="tns:deleteMovieRequest"/>
+       <output message="tns:deleteMovieResponse"/>
+     </operation>
+
+
+
+
+
+
      <operation name="addMovie">
        <input message="tns:deleteMovieRequest"/>
        <output message="tns:deleteMovieResponse"/>
@@ -91,6 +125,10 @@
     </output>
 
 
+
+
+
+
    </operation>
      <operation name="queryMoviename">
        <soap:operation soapAction="queryMoviename"/>
@@ -107,6 +145,25 @@
           use="encoded"/>
        </output>
      </operation>
+   </operation>
+     <operation name="queryMoviedirector">
+       <soap:operation soapAction="queryMoviedirector"/>
+       <input>
+         <soap:body
+          encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+          namespace="urn:examples:movieservice"
+          use="encoded"/>
+       </input>
+       <output>
+         <soap:body
+          encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+          namespace="urn:examples:movieservice"
+          use="encoded"/>
+       </output>
+     </operation>
+
+
+
 
 
 
