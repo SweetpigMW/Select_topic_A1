@@ -81,7 +81,22 @@ var movieService = {
             },
 
             queryMovieyear: function (args) {  //query
-                return { xml: "3"};
+              var xml = require('fs').readFileSync('movieG5.xml', 'utf8')
+              xml = xml.replace(/(\r\n|\n|\r|\t)/gm, "");
+              var doc = new dom().parseFromString(xml)
+              var nodes = xpath.select("/movielist", doc);
+              console.log(nodes[0].getElementsByTagName("movie").length);
+              var i = 0;
+              while (i < nodes[0].getElementsByTagName("movie").length) {       //remove tuples that none of argumnet is equal
+                  if (nodes[0].getElementsByTagName("movie")[i].getElementsByTagName("director")[0].childNodes[0].nodeValue == args.movie_year) {
+                      console.log(nodes[0].getElementsByTagName("movie")[i].getElementsByTagName("name")[0].childNodes[0].nodeValue);
+                      i++;
+                  } else {
+                      nodes[0].removeChild(nodes[0].getElementsByTagName("movie")[i]);
+                  }
+              }
+              console.log(nodes.toString());
+              return { xml: nodes.toString() };
             },
 
             queryMoviegenres: function (args) {  //query
