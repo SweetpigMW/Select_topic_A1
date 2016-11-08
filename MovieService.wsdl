@@ -5,128 +5,219 @@
    xmlns:tns="https://kigkokman-soap-server.herokuapp.com/wsdl?wsdl"
    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
-  <message name="updateMovieRequest">
-    <part name="old_movie_name" type="xsd:string"/>
-    <part name="new_movie_name" type="xsd:string"/>
-  </message>
-  <message name="updateMovieResponse">
-    <part name="xml" type="xsd:string"/>
-  </message>
+   <message name="updateMovieRequest">
+ 		<part name="old_movie_name" type="xsd:string"/>
+ 		<part name="new_movie_name" type="xsd:string"/>
+ 	</message>
+ 	<message name="updateMovieResponse">
+ 		<part name="xml" type="xsd:string"/>
+ 	</message>
 
-   <message name="deleteMovieRequest">
-    <part name="movie_name" type="xsd:string"/>
-   </message>
-   <message name="deleteMovieResponse">
-    <part name="xml" type="xsd:string"/>
-   </message>
+ 	<message name="deleteMovieRequest">
+ 		<part name="movie_name" type="xsd:string"/>
+ 	</message>
+ 	<message name="deleteMovieResponse">
+ 		<part name="xml" type="xsd:string"/>
+ 	</message>
+ 				<message name="queryMovienameRequest">
+ 					<part name="movie_name" type="xsd:string"/>
+ 				</message>
+ 				<message name="queryMovienameResponse">
+ 					<part name="xml" type="xsd:string"/>
+ 				</message>
+ 				<message name="queryMoviedirectorRequest">
+ 					<part name="movie_director" type="xsd:string"/>
+ 				</message>
+ 				<message name="queryMoviedirectorResponse">
+ 					<part name="xml" type="xsd:string"/>
+ 				</message>
+ 				<message name="queryMovieyearRequest">
+ 					<part name="movie_year" type="xsd:string"/>
+ 				</message>
+ 				<message name="queryMovieyearResponse">
+ 					<part name="xml" type="xsd:string"/>
+ 				</message>
+ 				<message name="queryMoviegenresRequest">
+ 					<part name="movie_genres" type="xsd:string"/>
+ 				</message>
+ 				<message name="queryMoviegenresResponse">
+ 					<part name="xml" type="xsd:string"/>
+ 				</message>
+ 				<message name="queryMoviestarsRequest">
+ 					<part name="movie_stars" type="xsd:string"/>
+ 				</message>
+ 				<message name="queryMoviestarsResponse">
+ 					<part name="xml" type="xsd:string"/>
+ 				</message>
+ 	<message name="addMovieRequest">
+ 		<part name="movie_name" type="xsd:string"/>
+ 		<part name="director" type="xsd:string"/>
+ 		<part name="year" type="xsd:string"/>
+ 		<part name="genre" type="xsd:string"/>
+ 		<part name="star" type="xsd:string"/>
+ 	</message>
+ 	<message name="addMovieResponse">
+ 		<part name="xml" type="xsd:string"/>
+ 	</message>
 
-  <message name="queryMovienameRequest">
-    <part name="movie_name" type="xsd:string"/>
-  </message>
-  <message name="queryMovieResponse">
-    <part name="xml" type="xsd:string"/>
-  </message>
-
-  <message name="addMovieRequest">
-    <part name="movie_name" type="xsd:string"/>
-    <part name="director" type="xsd:string"/>
-    <part name="year" type="xsd:string"/>
-    <part name="genre" type="xsd:string"/>
-    <part name="star" type="xsd:string"/>
-  </message>
-  <message name="addMovieResponse">
-    <part name="xml" type="xsd:string"/>
-  </message>
-
-   <portType name="Movie_PortType">
+ 	<portType name="Movie_PortType">
+ 		<operation name="updateMovie">
+ 			<input message="tns:updateMovieRequest"/>
+ 			<output message="tns:updateMovieResponse"/>
+ 		</operation>
+ 		<operation name="deleteMovie">
+ 			<input message="tns:deleteMovieRequest"/>
+ 			<output message="tns:deleteMovieResponse"/>
+ 		</operation>
+ 				<operation name="queryMoviename">
+ 					<input message="tns:queryMovienameRequest"/>
+ 					<output message="tns:queryMovienameResponse"/>
+ 				</operation>
+ 				<operation name="queryMoviedirector">
+ 					<input message="tns:queryMoviedirectorRequest"/>
+ 					<output message="tns:queryMoviedirectorResponse"/>
+ 				</operation>
+ 				<operation name="queryMovieyear">
+ 					<input message="tns:queryMovieyearRequest"/>
+ 					<output message="tns:queryMovieyearResponse"/>
+ 				</operation>
+ 				<operation name="queryMoviegenres">
+ 					<input message="tns:queryMoviegenresRequest"/>
+ 					<output message="tns:queryMoviegenresResponse"/>
+ 				</operation>
+ 				<operation name="queryMoviestars">
+ 					<input message="tns:queryMoviestarsRequest"/>
+ 					<output message="tns:queryMoviestarsResponse"/>
+ 				</operation>
+ 		<operation name="addMovie">
+ 			<input message="tns:deleteMovieRequest"/>
+ 			<output message="tns:deleteMovieResponse"/>
+ 		</operation>
+    </portType>
+ 	<binding name="Movie_Binding" type="tns:Movie_PortType">
+ 	<soap:binding style="rpc"
+     transport="http://schemas.xmlsoap.org/soap/http"/>
      <operation name="updateMovie">
-       <input message="tns:updateMovieRequest"/>
-       <output message="tns:updateMovieResponse"/>
-     </operation>
-     <operation name="deleteMovie">
-       <input message="tns:deleteMovieRequest"/>
-       <output message="tns:deleteMovieResponse"/>
+        <soap:operation soapAction="updateMovie"/>
+        <input>
+          <soap:body
+           encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+           namespace="urn:examples:movieservice"
+           use="encoded"/>
+        </input>
+        <output>
+          <soap:body
+           encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+           namespace="urn:examples:movieservice"
+           use="encoded"/>
+        </output>
+      </operation>
+ 	<operation name="deleteMovie">
+     <soap:operation soapAction="deleteMovie"/>
+     <input>
+        <soap:body
+         encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+         namespace="urn:examples:movieservice"
+         use="encoded"/>
+     </input>
+     <output>
+        <soap:body
+         encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+         namespace="urn:examples:movieservice"
+         use="encoded"/>
+     </output>
     </operation>
-     <operation name="queryMoviename">
-       <input message="tns:deleteMovieRequest"/>
-       <output message="tns:deleteMovieResponse"/>
-     </operation>
+ 				<operation name="queryMoviename">
+ 				   <soap:operation soapAction="queryMovie"/>
+ 				   <input>
+ 					 <soap:body
+ 					  encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+ 					  namespace="urn:examples:movieservice"
+ 					  use="encoded"/>
+ 				   </input>
+ 				   <output>
+ 					 <soap:body
+ 					  encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+ 					  namespace="urn:examples:movieservice"
+ 					  use="encoded"/>
+ 				   </output>
+ 				 </operation>
+ 				 <operation name="queryMoviedirector">
+ 				   <soap:operation soapAction="queryMovie"/>
+ 				   <input>
+ 					 <soap:body
+ 					  encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+ 					  namespace="urn:examples:movieservice"
+ 					  use="encoded"/>
+ 				   </input>
+ 				   <output>
+ 					 <soap:body
+ 					  encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+ 					  namespace="urn:examples:movieservice"
+ 					  use="encoded"/>
+ 				   </output>
+ 				 </operation>
+ 				 <operation name="queryMovieyear">
+ 				   <soap:operation soapAction="queryMovie"/>
+ 				   <input>
+ 					 <soap:body
+ 					  encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+ 					  namespace="urn:examples:movieservice"
+ 					  use="encoded"/>
+ 				   </input>
+ 				   <output>
+ 					 <soap:body
+ 					  encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+ 					  namespace="urn:examples:movieservice"
+ 					  use="encoded"/>
+ 				   </output>
+ 				 </operation>
+ 				 <operation name="queryMoviegenres">
+ 				   <soap:operation soapAction="queryMovie"/>
+ 				   <input>
+ 					 <soap:body
+ 					  encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+ 					  namespace="urn:examples:movieservice"
+ 					  use="encoded"/>
+ 				   </input>
+ 				   <output>
+ 					 <soap:body
+ 					  encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+ 					  namespace="urn:examples:movieservice"
+ 					  use="encoded"/>
+ 				   </output>
+ 				 </operation>
+ 				 <operation name="queryMoviestars">
+ 				   <soap:operation soapAction="queryMovie"/>
+ 				   <input>
+ 					 <soap:body
+ 					  encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+ 					  namespace="urn:examples:movieservice"
+ 					  use="encoded"/>
+ 				   </input>
+ 				   <output>
+ 					 <soap:body
+ 					  encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+ 					  namespace="urn:examples:movieservice"
+ 					  use="encoded"/>
+ 				   </output>
+ 				 </operation>
      <operation name="addMovie">
-       <input message="tns:deleteMovieRequest"/>
-       <output message="tns:deleteMovieResponse"/>
-     </operation>
-   </portType>
-
-   <binding name="Movie_Binding" type="tns:Movie_PortType">
-   <soap:binding style="rpc"
-    transport="http://schemas.xmlsoap.org/soap/http"/>
-     <operation name="updateMovie">
-       <soap:operation soapAction="updateMovie"/>
-       <input>
-         <soap:body
-          encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
-          namespace="urn:examples:movieservice"
-          use="encoded"/>
-       </input>
-       <output>
-         <soap:body
-          encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
-          namespace="urn:examples:movieservice"
-          use="encoded"/>
-       </output>
-     </operation>
-   <operation name="deleteMovie">
-    <soap:operation soapAction="deleteMovie"/>
-    <input>
-       <soap:body
-        encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
-        namespace="urn:examples:movieservice"
-        use="encoded"/>
-    </input>
-    <output>
-       <soap:body
-        encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
-        namespace="urn:examples:movieservice"
-        use="encoded"/>
-    </output>
-
-
-   </operation>
-     <operation name="queryMoviename">
-       <soap:operation soapAction="queryMoviename"/>
-       <input>
-         <soap:body
-          encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
-          namespace="urn:examples:movieservice"
-          use="encoded"/>
-       </input>
-       <output>
-         <soap:body
-          encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
-          namespace="urn:examples:movieservice"
-          use="encoded"/>
-       </output>
-     </operation>
-
-
-
-     <operation name="addMovie">
-       <soap:operation soapAction="addMovie"/>
-       <input>
-         <soap:body
-          encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
-          namespace="urn:examples:movieservice"
-          use="encoded"/>
-       </input>
-       <output>
-         <soap:body
-          encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
-          namespace="urn:examples:movieservice"
-          use="encoded"/>
-       </output>
-     </operation>
-   </binding>
-
+        <soap:operation soapAction="addMovie"/>
+        <input>
+          <soap:body
+           encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+           namespace="urn:examples:movieservice"
+           use="encoded"/>
+        </input>
+        <output>
+          <soap:body
+           encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+           namespace="urn:examples:movieservice"
+           use="encoded"/>
+        </output>
+      </operation>
+ 	</binding>
    <service name="Movie_Service">
     <documentation>WSDL File for MovieService</documentation>
     <port binding="tns:Movie_Binding" name="Movie_Port">
