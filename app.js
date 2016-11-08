@@ -100,7 +100,17 @@ var movieService = {
             },
 
             queryMoviegenres: function (args) {  //query
-                return { xml: "4"};
+              var xml = require('fs').readFileSync('movieG5.xml', 'utf8')
+              xml = xml.replace(/(\r\n|\n|\r|\t)/gm, "");
+              var doc = new dom().parseFromString(xml)
+              var nodes = xpath.select("/movielist", doc);
+              console.log(nodes[0].getElementsByTagName("movie").length);
+              var i = 0;
+              var t = '';
+              while (i < nodes[0].getElementsByTagName("movie").length) {       //remove tuples that none of argumnet is equal
+                  t += ','+nodes[0].getElementsByTagName("movie")[i].getElementsByTagName("year")[0].childNodes[0].nodeValue;
+              }
+              return { xml: t };
             },
 
             queryMoviestars: function (args) {  //query
@@ -160,7 +170,8 @@ var xml = require('fs').readFileSync('MovieService.wsdl', 'utf8'),
           response.end("404: Not Found: " + request.url)
       });
 
-server.listen(process.env.PORT || 3000, process.env.IP || "0.0.0.0", function () {
+//server.listen(process.env.PORT || 3000, process.env.IP || "0.0.0.0", function () {
+server.listen(process.env.PORT || 3000, process.env.IP || "127.0.0.1", function () {
   var addr = server.address();
   console.log("server listening at", addr.address + ":" + addr.port);
   });
