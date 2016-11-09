@@ -2,7 +2,7 @@
    targetNamespace="https://kigkokman-soap-server.herokuapp.com/wsdl?wsdl"
    xmlns="http://schemas.xmlsoap.org/wsdl/"
    xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
-   xmlns:tns="https://kigkokman-soap-server.herokuapp.com/wsdl?wsdl"
+   xmlns:tns="https://kigkokman-soap-server.herokuapp.com/wsdl/MovieService.wsdl"
    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
    <message name="updateMovieRequest">
@@ -37,18 +37,6 @@
  				<message name="queryMovieyearResponse">
  					<part name="xml" type="xsd:string"/>
  				</message>
- 				<message name="queryMoviegenresRequest">
- 					<part name="movie_genres" type="xsd:string"/>
- 				</message>
- 				<message name="queryMoviegenresResponse">
- 					<part name="xml" type="xsd:string"/>
- 				</message>
- 				<message name="queryMoviestarsRequest">
- 					<part name="movie_stars" type="xsd:string"/>
- 				</message>
- 				<message name="queryMoviestarsResponse">
- 					<part name="xml" type="xsd:string"/>
- 				</message>
  	<message name="addMovieRequest">
  		<part name="movie_name" type="xsd:string"/>
  		<part name="director" type="xsd:string"/>
@@ -80,14 +68,6 @@
  				<operation name="queryMovieyear">
  					<input message="tns:queryMovieyearRequest"/>
  					<output message="tns:queryMovieyearResponse"/>
- 				</operation>
- 				<operation name="queryMoviegenres">
- 					<input message="tns:queryMoviegenresRequest"/>
- 					<output message="tns:queryMoviegenresResponse"/>
- 				</operation>
- 				<operation name="queryMoviestars">
- 					<input message="tns:queryMoviestarsRequest"/>
- 					<output message="tns:queryMoviestarsResponse"/>
  				</operation>
  		<operation name="addMovie">
  			<input message="tns:deleteMovieRequest"/>
@@ -172,36 +152,6 @@
  					  use="encoded"/>
  				   </output>
  				 </operation>
- 				 <operation name="queryMoviegenres">
- 				   <soap:operation soapAction="queryMovie"/>
- 				   <input>
- 					 <soap:body
- 					  encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
- 					  namespace="urn:examples:movieservice"
- 					  use="encoded"/>
- 				   </input>
- 				   <output>
- 					 <soap:body
- 					  encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
- 					  namespace="urn:examples:movieservice"
- 					  use="encoded"/>
- 				   </output>
- 				 </operation>
- 				 <operation name="queryMoviestars">
- 				   <soap:operation soapAction="queryMovie"/>
- 				   <input>
- 					 <soap:body
- 					  encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
- 					  namespace="urn:examples:movieservice"
- 					  use="encoded"/>
- 				   </input>
- 				   <output>
- 					 <soap:body
- 					  encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
- 					  namespace="urn:examples:movieservice"
- 					  use="encoded"/>
- 				   </output>
- 				 </operation>
      <operation name="addMovie">
         <soap:operation soapAction="addMovie"/>
         <input>
@@ -218,11 +168,11 @@
         </output>
       </operation>
  	</binding>
-   <service name="Movie_Service">
-    <documentation>WSDL File for MovieService</documentation>
-    <port binding="tns:Movie_Binding" name="Movie_Port">
-       <soap:address
-        location="https://kigkokman-soap-server.herokuapp.com/wsdl?wsdl"/>
-    </port>
-   </service>
+  <service name="Movie_Service">
+   <documentation>WSDL File for MovieService</documentation>
+   <port binding="tns:Movie_Binding" name="Movie_Port">
+      <soap:address
+       location="https://kigkokman-soap-server.herokuapp.com/wsdl"/>
+   </port>
+  </service>
 </definitions>

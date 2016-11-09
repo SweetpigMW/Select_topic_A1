@@ -11,6 +11,7 @@
   "dependencies": {
     "dom": "0.0.3",
     "soap": "^0.17.0",
+    "xml-writer": "^1.6.0",
     "xmldom": "^0.1.22",
     "xpath": "0.0.23"
   }
