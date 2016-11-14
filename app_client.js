@@ -84,7 +84,7 @@ function buildTable(xml) {
     var x, i, xmlDoc, table;
     var doc = new dom().parseFromString(xml)
     var nodes = xpath.select("/movielist", doc);
-    table = "<tr><th>#</th><th>Movie Name</th><th>Director Name</th><th>Year</th><th>Genres</th><th>Stars</th></th><th>Action</th></tr>";
+    table = "<tr><th>#</th><th>Movie Name</th><th>Director Name</th><th>Year</th><th>Genres</th><th>Stars</th><th>Time</th><th>Resolution</th></th><th>Action</th></tr>";
     x = doc.getElementsByTagName("movie")
 		if(nodes[0].getElementsByTagName("movie").length > 0){
 		    for (i = 0; i < x.length; i++) {
@@ -126,6 +126,10 @@ function buildTable(xml) {
 		        "</td><td>" +
 		        starStr +
 		        "</td><td>"+
+		         x[i].getElementsByTagName("time")[0].childNodes[0].nodeValue +
+		        "</td><td>" +
+		         x[i].getElementsByTagName("resolution")[0].childNodes[0].nodeValue +
+		        "</td><td>" +
 						'<a class="btn btn-default btn-xs" data-toggle="modal" data-target="#detailBox'+i.toString()+'"><i class="fa fa-info-circle fa-lg"></i> Detail</a>&nbsp;&nbsp;'+
 						'<a class="btn btn-primary btn-xs" data-toggle="modal" data-target="#editBox'+i.toString()+'"><i class="fa fa-pencil-square-o fa-lg"></i> Edit</a>&nbsp;&nbsp;'+
 						'<a class="btn btn-danger btn-xs" data-toggle="modal" data-target="#deleteBox'+i.toString()+'"><i class="fa fa-trash-o fa-lg"></i> Delete</a>&nbsp;&nbsp;'+
