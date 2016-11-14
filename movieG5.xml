@@ -14,6 +14,8 @@
 	    <name>Heath Ledger</name>
 	    <name>Aaron Eckhart </name>
 	  </stars>
+	  <time>120</time>
+	  <resolution>720</resolution>
 	</movie>
 	<movie>
 	  <name>Batman Begins</name>
@@ -29,6 +31,8 @@
 	    <name>Michael Caine</name>
 	    <name>Ken Watanabe</name>
 	  </stars>
+	  <time>128</time>
+	  <resolution>720</resolution>
 	</movie>
 	<movie>
 	  <name>The Dark Knight Rises</name>
@@ -44,6 +48,8 @@
 	    <name>Anne Hathaway</name>
 	    <name>Tom Hardy</name>
 	  </stars>
+	  <time>168</time>
+	  <resolution>720</resolution>
 	</movie>
 	<movie>
 	  <name>Inception</name>
@@ -59,6 +65,8 @@
 	    <name>Joseph Gordon-Levitt</name>
 	    <name>Ellen Page</name>
 	  </stars>
+	  <time>140</time>
+	  <resolution>1080</resolution>
 	</movie>
 	<movie>
 	  <name>Gladiator</name>
@@ -74,6 +82,8 @@
 	    <name>Joaquin Phoenix</name>
 	    <name>Connie Nielsen</name>
 	  </stars>
+	  <time>128</time>
+	  <resolution>720</resolution>
 	</movie>
 	<movie>
 	  <name>Mad Max: Fury Road</name>
@@ -89,6 +99,8 @@
 	    <name>Charlize Theron</name>
 	    <name>Nicholas Hoult</name>
 	  </stars>
+	  <time>120</time>
+	  <resolution>720</resolution>
 	</movie>
 	<movie>
 	  <name>The Bourne Identity</name>
@@ -104,6 +116,8 @@
 	    <name>Franka Potente</name>
 	    <name>Chris Cooper</name>
 	  </stars>
+	  <time>132</time>
+	  <resolution>1080</resolution>
 	</movie>
 	<movie>
 	  <name>The Bourne Supremacy</name>
@@ -119,6 +133,8 @@
 	    <name>Franka Potente</name>
 	    <name>Joan Allen</name>
 	  </stars>
+	  <time>130</time>
+	  <resolution>1080</resolution>
 	</movie>
 	<movie>
 	  <name>The Bourne Ultimatum</name>
@@ -134,6 +150,8 @@
 	    <name>Edgar Ramírez</name>
 	    <name>Joan Allen</name>
 	  </stars>
+	  <time>120</time>
+	  <resolution>720</resolution>
 	</movie>
 	<movie>
 	  <name>Saving Private Ryan</name>
@@ -149,6 +167,8 @@
 	    <name>Matt Damon</name>
 	    <name>Tom Sizemore</name>
 	  </stars>
+	  <time>145</time>
+	  <resolution>1080</resolution>
 	</movie>
 	<movie>
 	  <name>47 Ronin</name>
@@ -164,6 +184,8 @@
 	    <name>Rinko Kikuchi</name>
 	    <name>Hiroyuki Sanada</name>
 	  </stars>
+	  <time>128</time>
+	  <resolution>720</resolution>
 	</movie>
 	<movie>
 	  <name>Maleficent</name>
@@ -179,6 +201,8 @@
 	    <name>Elle Fanning</name>
 	    <name>Sharlto Copley</name>
 	  </stars>
+	  <time>156</time>
+	  <resolution>720</resolution>
 	</movie>
 	<movie>
 	  <name>Snow White and the Huntsman</name>
@@ -194,6 +218,8 @@
 	    <name>Chris Hemsworth</name>
 	    <name>Charlize Theron</name>
 	  </stars>
+	  <time>111</time>
+	  <resolution>1080</resolution>
 	</movie>
 	<movie>
 	  <name>pixels</name>
@@ -209,6 +235,8 @@
 	    <name>Peter Dinklage</name>
 	    <name>Adam Sandler</name>
 	  </stars>
+	  <time>122</time>
+	  <resolution>720</resolution>
 	</movie>
 	<movie>
 	  <name>Lucy</name>
@@ -223,6 +251,8 @@
 	    <name>Morgan Freeman</name>
 	    <name>Amr Waked</name>
 	  </stars>
+	  <time>128</time>
+	  <resolution>1080</resolution>
 	</movie>
 	<movie>
 	  <name>Oz the Great and Powerful</name>
@@ -238,6 +268,8 @@
 	    <name>Mila Kunis</name>
 	    <name>Rachel Weisz</name>
 	  </stars>
+	  <time>120</time>
+	  <resolution>720</resolution>
 	</movie>
 	<movie>
 	  <name>Avatar</name>
@@ -253,6 +285,8 @@
 	    <name>Zoe Saldana</name>
 	    <name>Sigourney Weaver</name>
 	  </stars>
+	  <time>156</time>
+	  <resolution>1080</resolution>
 	</movie>
 	<movie>
 	  <name>Mr. &amp; Mrs. Smith</name>
@@ -268,6 +302,8 @@
 	    <name>Angelina Jolie</name>
 	    <name>Vince Vaughn</name>
 	  </stars>
+	  <time>150</time>
+	  <resolution>720</resolution>
 	</movie>
 	<movie>
 	  <name>Enders Game</name>
@@ -283,6 +319,8 @@
 	    <name>Abigail Breslin</name>
 	    <name>Harrison Ford</name>
 	  </stars>
+	  <time>140</time>
+	  <resolution>720</resolution>
 	</movie>
 	<movie>
 	  <name>Largo Winch</name>
@@ -297,6 +335,8 @@
 	    <name>Kristin Scott Thomas</name>
 	    <name>Miki Manojlovic</name>
 	  </stars>
+	  <time>132</time>
+	  <resolution>720</resolution>
 	</movie>
 	<movie>
 	  <name>The Lord of the Rings : The Fellowship of the Ring</name>
@@ -311,6 +351,8 @@
 	    <name>Viggo Mortensen</name>
 	    <name>Ian McKellen</name>
 	  </stars>
+	  <time>140</time>
+	  <resolution>1080</resolution>
 	</movie>
 	<movie>
 	  <name>Transformers</name>
@@ -325,6 +367,8 @@
 	    <name>Megan Fox</name>
 	    <name>Josh Duhamel</name>
 	  </stars>
+	  <time>132</time>
+	  <resolution>720</resolution>
 	</movie>
 	<movie>
 	  <name>Avatar</name>
@@ -338,6 +382,8 @@
 	    <name>Stephen Lang</name>
 	    <name>Sigourney Weaver</name>
 	  </stars>
+	  <time>120</time>
+	  <resolution>720</resolution>
 	</movie>
 	<movie>
 	  <name>Edge of Tomorrow</name>
@@ -351,6 +397,8 @@
 	    <name>Tom Cruise</name>
 	    <name>Emily Blunt</name>
 	  </stars>
+	  <time>140</time>
+	  <resolution>1080</resolution>
 	</movie>
 	<movie>
 	  <name>In Time</name>
@@ -366,6 +414,8 @@
 	    <name>Amanda Seyfried</name>
 	    <name>Cillian Murphy</name>
 	  </stars>
+	  <time>120</time>
+	  <resolution>1080</resolution>
 	</movie>
 	<movie>
 	  <name>John Wick</name>
@@ -381,6 +431,8 @@
 	    <name>Michael Nyqvist</name>
 	    <name>Alfie Allen</name>
 	  </stars>
+	  <time>132</time>
+	  <resolution>480</resolution>
 	</movie>
 	<movie>
 	  <name>James Bond 007 : Casino Royale</name>
@@ -395,6 +447,8 @@
 	    <name>Eva Green</name>
 	    <name>Mads Mikkelsen</name>
 	  </stars>
+	  <time>132</time>
+	  <resolution>720</resolution>
 	</movie>
 	<movie>
 	  <name>Pirates of the Caribbean:At World's End</name>
@@ -408,6 +462,8 @@
 	    <name>Orlando Bloom</name>
 	    <name>Keira Knightley</name>
 	  </stars>
+	  <time>120</time>
+	  <resolution>1080</resolution>
 	</movie>
 	<movie>
 	  <name>Guardians of the Galaxy</name>
@@ -421,6 +477,8 @@
 	    <name>Zoe Saldana</name>
 	    <name>Dave Bautista</name>
 	  </stars>
+	  <time>142</time>
+	  <resolution>480</resolution>
 	</movie>
 	<movie>
 	  <name>Fast and Furious 7</name>
@@ -434,6 +492,8 @@
 	    <name>Paul Walker</name>
 	    <name>Jason Statham</name>
 	  </stars>
+	  <time>156</time>
+	  <resolution>480</resolution>
 	</movie>
 	<movie>
 	  <name>Insurgent</name>
@@ -449,6 +509,8 @@
 	    <name>Theo James</name>
 	    <name>Ansel Elgort</name>
 	  </stars>
+	  <time>132</time>
+	  <resolution>720</resolution>
 	</movie>
 	<movie>
 	  <name>Divergent</name>
@@ -464,6 +526,8 @@
 	    <name>Theo James</name>
 	    <name>Ansel Elgort</name>
 	  </stars>
+	  <time>120</time>
+	  <resolution>720</resolution>
 	</movie>
 	<movie>
 	  <name>Lights out</name>
@@ -479,6 +543,8 @@
 	    <name>Gabriel Bateman</name>
 	    <name>Maria Bello</name>
 	  </stars>
+	  <time>132</time>
+	  <resolution>480</resolution>
 	</movie>
 	<movie>
 	  <name>The Mortal Instruments: City of Bones</name>
@@ -494,6 +560,8 @@
 	    <name>Robert Sheehan</name>
 	    <name>Jamie Campbell Bower</name>
 	  </stars>
+	  <time>120</time>
+	  <resolution>720</resolution>
 	</movie>
 	<movie>
 	  <name>Pitch perfect 2</name>
@@ -509,6 +577,8 @@
 	    <name>Rebel Wilson</name>
 	    <name>Hailee Steinfeld</name>
 	  </stars>
+	  <time>132</time>
+	  <resolution>720</resolution>
 	</movie>
 	<movie>
 	  <name>Eragon</name>
@@ -524,6 +594,8 @@
 	    <name>Jeremy Irons</name>
 	    <name>Sienna Guillory</name>
 	  </stars>
+	  <time>120</time>
+	  <resolution>480</resolution>
 	</movie>
 	<movie>
 	  <name>Midnight Special</name>
@@ -539,6 +611,8 @@
 	    <name>Joel Edgerton</name>
 	    <name>Kirsten Dunst</name>
 	  </stars>
+	  <time>120</time>
+	  <resolution>360</resolution>
 	</movie>
 	<movie>
 	  <name>Maze Runner : The Scorch Trials</name>
@@ -554,6 +628,8 @@
 	    <name>Thomas Brodie-Sangster</name>
 	    <name>Ki Hong Lee</name>
 	  </stars>
+	  <time>145</time>
+	  <resolution>720</resolution>
 	</movie>
 	<movie>
 	  <name>The Hunger Games 1</name>
@@ -569,6 +645,8 @@
 	    <name>Stanley Tucci</name>
 	    <name>Wes Bentley</name>
 	  </stars>
+	  <time>120</time>
+	  <resolution>720</resolution>
 	</movie>
 	<movie>
 	  <name>Percy Jackson : Sea of Monsters</name>
@@ -584,6 +662,8 @@
 	    <name>Alexandra Daddario</name>
 	    <name>Jake Abel</name>
 	  </stars>
+	  <time>120</time>
+	  <resolution>1080</resolution>
 	</movie>
 	<movie>
 	  <name>Transcendence</name>
@@ -599,6 +679,8 @@
 	    <name>Rebecca Hall</name>
 	    <name>Morgan Freeman</name>
 	  </stars>
+	  <time>142</time>
+	  <resolution>720</resolution>
 	</movie>
 	<movie>
 	  <name>The Fault in Our Stars</name>
@@ -613,6 +695,8 @@
 	    <name>Ansel Elgort</name>
 	    <name>Nat Wolff</name>
 	  </stars>
+	  <time>120</time>
+	  <resolution>1080</resolution>
 	</movie>
 	<movie>
 	  <name>Escape Plan</name>
@@ -627,6 +711,8 @@
 	    <name>Sylvester Stallone</name>
 	    <name>Arnold Schwarzenegger</name>
 	  </stars>
+	  <time>150</time>
+	  <resolution>720</resolution>
 	</movie>
 	<movie>
 	  <name>Interstellar</name>
@@ -642,6 +728,8 @@
 	    <name>Anne Hathaway</name>
 	    <name>Jessica Chastain</name>
 	  </stars>
+	  <time>180</time>
+	  <resolution>720</resolution>
 	</movie>
 	<movie>
 	  <name>The Martian</name>
@@ -657,6 +745,8 @@
 	    <name>Jessica Chastain</name>
 	    <name>Kristen Wiig</name>
 	  </stars>
+	  <time>120</time>
+	  <resolution>360</resolution>
 	</movie>
 	<movie>
 	  <name>R.I.P.D.</name>
@@ -672,6 +762,8 @@
 	    <name>Jeff Bridges</name>
 	    <name>Mary-Louise Parker</name>
 	  </stars>
+	  <time>180</time>
+	  <resolution>720</resolution>
 	</movie>
 	<movie>
 	  <name>Exam</name>
@@ -686,6 +778,8 @@
 	    <name>Gemma Chan</name>
 	    <name>Nathalie Cox</name>
 	  </stars>
+	  <time>120</time>
+	  <resolution>720</resolution>
 	</movie>
 	<movie>
 	  <name>Summer Wars</name>
@@ -701,6 +795,8 @@
 	    <name>Nanami Sakuraba</name>
 	    <name>Mitsuki Tanimura</name>
 	  </stars>
+	  <time>120</time>
+	  <resolution>360</resolution>
 	</movie>
 	<movie>
 	  <name>The Boy and the Beast</name>
@@ -716,6 +812,8 @@
 	    <name>Kumiko Asô</name>
 	    <name>Morgan Berry</name>
 	  </stars>
+	  <time>120</time>
+	  <resolution>1080</resolution>
 	</movie>
 	<movie>
 	  <name>Spirited Away</name>
@@ -731,6 +829,8 @@
 	    <name>Miyu Irino</name>
 	    <name>Mari Natsuki</name>
 	  </stars>
+	  <time>190</time>
+	  <resolution>720</resolution>
 	</movie>
 	<movie>
 	  <name>The Spiderwick Chronicles</name>
@@ -744,6 +844,8 @@
 	    <name>Sarah Bolger</name>
 	    <name>Mary-Louise Parker</name>
 	  </stars>
+	  <time>150</time>
+	  <resolution>720</resolution>
 	</movie>
 	<movie>
 	  <name>Charlie and the Chocolate Factory</name>
@@ -758,6 +860,8 @@
 	    <name>Freddie Highmore</name>
 	    <name>David Kelly</name>
 	  </stars>
+	  <time>120</time>
+	  <resolution>480</resolution>
 	</movie>
 	<movie>
 	  <name>Maleficent</name>
@@ -771,6 +875,8 @@
 	    <name>Angelina Jolie</name>
 	    <name>Elle Fanning</name>
 	  </stars>
+	  <time>120</time>
+	  <resolution>720</resolution>
 	</movie>
 	<movie>
 	  <name>The Golden Compass</name>
@@ -786,6 +892,8 @@
 	    <name>Sam Elliott</name>
 	    <name>Eva Green</name>
 	  </stars>
+	  <time>150</time>
+	  <resolution>720</resolution>
 	</movie>
 	<movie>
 	  <name>Lone Survivor</name>
@@ -799,6 +907,8 @@
 	    <name>Taylor Kitsch</name>
 	    <name>Emile Hirsch</name>
 	  </stars>
+	  <time>150</time>
+	  <resolution>480</resolution>
 	</movie>
 	<movie>
 	  <name>Source Code</name>
@@ -813,6 +923,8 @@
 	    <name>Michelle Monaghan</name>
 	    <name>Vera Farmiga</name>
 	  </stars>
+	  <time>120</time>
+	  <resolution>720</resolution>
 	</movie>
 	<movie>
 	  <name>Battle: Los Angeles</name>
@@ -827,6 +939,8 @@
 	    <name>Michelle Rodriguez</name>
 	    <name>Bridget Moynahan</name>
 	  </stars>
+	  <time>135</time>
+	  <resolution>720</resolution>
 	</movie>
 	<movie>
 	  <name>Scream 4</name>
@@ -840,6 +954,8 @@
 	    <name>Neve Campbell</name>
 	    <name>Courteney Cox</name>
 	  </stars>
+	  <time>120</time>
+	  <resolution>1080</resolution>
 	</movie>
 	<movie>
 	  <name>Tower Heist</name>
@@ -853,6 +969,8 @@
 	    <name>Eddie Murphy</name>
 	    <name>Matthew Broderick</name>
 	  </stars>
+	  <time>120</time>
+	  <resolution>480</resolution>
 	</movie>
 	<movie>
 	  <name>Immortals</name>
@@ -867,5 +985,7 @@
 	    <name>Freida Pinto</name>
 	    <name>Mickey Rourke</name>
 	  </stars>
+	  <time>180</time>
+	  <resolution>1080</resolution>
 	</movie>
 </movielist>
