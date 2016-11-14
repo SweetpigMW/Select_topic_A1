@@ -172,7 +172,7 @@
    <documentation>WSDL File for MovieService</documentation>
    <port binding="tns:Movie_Binding" name="Movie_Port">
       <soap:address
-       location="https://kigkokman-soap-server.herokuapp.com/wsdl"/>
+       location="https://selecta1app.herokuapp.com/wsdl"/>
    </port>
   </service>
 </definitions>

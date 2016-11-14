@@ -4,7 +4,7 @@ var express = require('express');
 var dom = require('xmldom').DOMParser;
 var bodyParser = require('body-parser');
 //var url = 'http://127.0.0.1:3000/wsdl?wsdl';  // offline
-var url = 'https://kigkokman-soap-server.herokuapp.com/wsdl?wsdl';
+var url = 'https://selecta1app.herokuapp.com/wsdl?wsdl';
 
 var app = express();
 app.set('view engine', 'ejs');
