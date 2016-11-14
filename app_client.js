@@ -165,11 +165,11 @@ function buildTable(xml) {
 				                      '</div>'+
 				                      '<div class="form-group">'+
 				                          '<label>Year</label>'+
-				                          '<input type="text" class="form-control" id="year" value="'+x[i].getElementsByTagName("time")[0].childNodes[0].nodeValue+'" readonly>'+
+				                          '<input type="text" class="form-control" id="time" value="'+x[i].getElementsByTagName("time")[0].childNodes[0].nodeValue+'" readonly>'+
 				                      '</div>'+
 				                      '<div class="form-group">'+
 				                          '<label>Year</label>'+
-				                          '<input type="text" class="form-control" id="year" value="'+x[i].getElementsByTagName("resolution")[0].childNodes[0].nodeValue+'" readonly>'+
+				                          '<input type="text" class="form-control" id="resolution" value="'+x[i].getElementsByTagName("resolution")[0].childNodes[0].nodeValue+'" readonly>'+
 				                      '</div>'+
 				                  '</form>'+
 				              '</div>'+
