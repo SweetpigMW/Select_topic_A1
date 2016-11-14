@@ -8,6 +8,7 @@ var dom = require('xmldom').DOMParser;
 var movieService = {
     Movie_Service: {
         Movie_Port: {
+//====================== Update Movie =========================================================
             updateMovie: function (args) {  //change
                   var xml = require('fs').readFileSync('movieG5.xml', 'utf8')
                   xml = xml.replace(/(\r\n|\n|\r|\t)/gm, "");
@@ -66,6 +67,7 @@ var movieService = {
                   })
                   return { xml: result };
             },
+//====================== Delete Movie =========================================================
             deleteMovie: function (args) {  //remove
                 var xml = require('fs').readFileSync('movieG5.xml', 'utf8')
                 xml = xml.replace(/(\r\n|\n|\r|\t)/gm, "");
@@ -86,7 +88,7 @@ var movieService = {
                 })
                 return { xml: result };
             },
-
+//====================== Query Movie =========================================================
             queryMoviename: function (args) {  //query
                 var xml = require('fs').readFileSync('movieG5.xml', 'utf8')
                 xml = xml.replace(/(\r\n|\n|\r|\t)/gm, "");
